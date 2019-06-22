@@ -28,5 +28,4 @@ client.on("message", (message) => {
     })
   }
 });
-
 kboosh.login(process.env.BOT_TOKEN)
