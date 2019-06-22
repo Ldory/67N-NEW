@@ -1,6 +1,5 @@
 const Discord = require("discord.js");
   const kboosh = new Discord.Client();
-    const kbooshtoken = "MzI3NzM2NTMyOTMwOTIwNDUw.DGmnLA.QFbtYXPzTAvZsoFW70wNLyVm3lE"
       kboosh.on('ready', () => {
         kboosh.user.setGame(`67N SYSTEM .`,'https://www.twitch.tv/TEST-Broadcast');
           console.log('Im Ready!');
@@ -45,4 +44,4 @@ const Discord = require("discord.js");
                             }
                           }
 });
-kboosh.login("BOT_TOKEN");
+kboosh.login(process.env.BOT_TOKEN)
