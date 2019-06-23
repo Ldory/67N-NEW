@@ -5,4 +5,4 @@ client.on('ready', () => {
 
 
 
-kboosh.login(process.env.BOT_TOKEN)
+leader.login(process.env.BOT_TOKEN)
