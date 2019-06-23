@@ -1,6 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-
+client.on('ready', () => {
+  client.user.setGame(`67N SYSTEM.`,'https://www.twitch.tv/v5bz');
+  console.log('---------------');
+  console.log(' Bot Is Online')
+  console.log('---------------')
+});
 const prefix = "-"
 client.on('message',message =>   {
 if(message.rebel.bot) return;
